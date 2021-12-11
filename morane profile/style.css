@@ -1,0 +1,146 @@
+.img-circle {
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: auto;
+	margin-left: 150px;
+
+}
+body {
+	background-color: white ;
+	
+}
+h1,h2 {text-align: center;}
+
+h1{
+	color: rgb(195, 43, 173) ;
+	font-size: 64px;
+
+}
+h2{	
+	color: rgb(253, 185, 252)
+	font-size: 45px;
+}
+
+p{
+	color: rgb(195, 100, 173);
+	font-family: calibri light;
+	font-size: 30px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(60, 80, 90);
+}
+
+a:hover {
+	text-decoration: :none;
+	color: purple;
+	font-family: 'roboto', sans-serif;
+	font-weight: 500;
+	font-size: 45px;
+}
+
+div {
+	display: block;
+}
+
+.container{
+	width: : 1040px;
+	text-align: : center;
+	padding: 24px;
+	margin: O auto;
+}
+
+.card-white {
+	background: white;
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0 15px 35px rgba(60, 80, 90, 0.6);
+width: 800px;
+margin: 12px auto;
+}
+
+
+.btn-blue {
+	border: solid 1px #8d8f9f;
+	background: purple;
+	color: white;
+	padding: 12px;
+	width: 120px;
+	border-radius: 8px;
+}
+
+/* media queries*/
+
+@media(max-midth: 600px){
+	.container{
+		width: 400px;
+	}
+}
+.inside-navbar {
+	display: inline;
+}
+#presentation{
+	display: inline;
+	color: whitesmoke;
+}
+#ecole {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	border: 1px solid #FD0054;
+	border-radius: 10px;
+}
+
+#ecole:hover{
+	color: white;
+	background-color: #FD0054;
+	border: 1px solid #FD0054;
+}
+
+/* ids */
+
+#profile-picture {
+  width: 232px;
+  height: 232px;
+  border-radius: 50%;
+}
+
+#social-media-list {
+  list-style: none;
+  padding: 0;
+}
+
+#social-media-list li {
+  display: inline;
+  font-size: 40px;
+
+}
+
+#social-media-list li :hover {
+  color: #8c8f9f;
+  transition: 0.5s;
+}
+
+#coding-img-card {
+  background-image: url(images/coding.jpeg);
+  background-position: center;
+}
+
+#coding-img-card h2 {
+  color: white;
+}
+
+#coding-img-card p {
+  color: black;
+  font-weight: bolder;
+}
+
+#word-green {
+  color: white;
+  font-size: 18px;
+  padding: 8px 20px 8px 20px;
+  background: #7ab990;
+  border-radius: 32px;
+}
