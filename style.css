@@ -1,0 +1,78 @@
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/card-grid.css");
+
+
+.avatar-round{
+display: inline-block;
+	border-radius: 50%;
+	margin-right: 100px;
+	margin-left: 290px;	
+	width: 200px;
+	
+}
+
+
+h1,h2 {text-align: center;}
+
+h1{
+	color: rgb(195, 43, 173) ;
+	font-size: 64px;
+
+}
+h2{	
+	color: rgb(260, 160, 300)
+	font-size: 35px;
+}
+p{
+	color: rgb(195, 100, 173);
+	font-family: times new roman;
+	font-size: 30px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(60, 80, 90);
+}
+
+a:hover {
+	text-decoration: :none;
+	color: purple;
+	font-family: 'roboto', sans-serif;
+	font-weight: 500;
+	font-size: 45px;
+}
+
+div {
+	display: block;
+}
+
+.container{
+	width: : 1040px;
+	text-align: : center;
+	padding: 24px;
+	margin: O auto;
+}
+
+.card {
+	background: white;
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0 15px 35px rgba(60, 80, 90, 0.6);
+width: 800px;
+margin: 12px auto;
+align-content: center;
+}
+
+
+.btn-blue {
+	border: solid 1px #8d8f9f;
+	background: purple;
+	color: white;
+	padding: 12px;
+	width: 120px;
+	border-radius: 8px;
+}
